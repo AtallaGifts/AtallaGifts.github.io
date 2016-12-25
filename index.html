@@ -245,6 +245,26 @@
         background: rgba(0, 0, 0, 0.31);
         color: white;
     }
+	.thumbnail {
+	  position: relative;
+	  width: 200px;
+	  height: 200px;
+	  overflow: hidden;
+		}
+	.thumbnail img {
+	  position: absolute;
+	  left: 50%;
+	  top: 50%;
+	  height: 100%;
+	  width: auto;
+	  -webkit-transform: translate(-50%,-50%);
+		  -ms-transform: translate(-50%,-50%);
+			  transform: translate(-50%,-50%);
+	}
+	.thumbnail img.portrait {
+	  width: 100%;
+	  height: auto;
+	}
 	</style>
 	<script>
 	  $(document).ready( function() {
@@ -318,20 +338,48 @@
             </div>
 
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
-            </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="http://placehold.it/400x300">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
+                <a class="thumbnail">
+                    <img type="button" class="img-responsive btn btn-primary" data-toggle="modal" data-target="#myModal2" src="gifts/Pyrrah sketch.png" alt="">
+					
+					
+					<i class="fa fa-download" aria-hidden="true"></i>Download</a></a>
+					<div id="myModal2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-body">
+								<a href="gifts/Pyrrah sketch.png"><img src="gifts/Pyrrah sketch.png" class="img-responsive"></a>
+								<a href="gifts/Pyrrah sketch.png" class="btn btn-info" role="button" download"><i class="fa fa-download" aria-hidden="true"></i>Download</a>
+							</div>
+						</div>
+					  </div>
+					</div>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail">
+                    <img type="button" class="img-responsive btn btn-primary" data-toggle="modal" data-target="#myModal3" src="gifts/Pyrrha sketch words.png" alt="">
+					
+					
+					<i class="fa fa-download" aria-hidden="true"></i>Download</a></a>
+					<div id="myModal3" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-body">
+								<a href="gifts/Pyrrha sketch words.png"><img src="gifts/Pyrrha sketch words.png" class="img-responsive"></a>
+								<a href="gifts/Pyrrha sketch words.png" class="btn btn-info" role="button" download"><i class="fa fa-download" aria-hidden="true"></i>Download</a>
+							</div>
+						</div>
+					  </div>
+					</div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                
 
 				    <!-- Trigger the modal with a button -->
-<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+<button type="button" class="btn btn-danger" data-toggle="modal" data-target="#myModal" style="
+    margin-left: 0px;
+    margin-right: 50px;
+">Day 4</button>
+<a href="gifts/Such Plight Part 1.txt" class="btn btn-info" role="button" style="margin-left: 0px; margin-right: 50px; margin-top: 20px;" download><i class="fa fa-download" aria-hidden="true"></i>Download</a>
 
 <!-- Modal -->
 <div id="myModal" class="modal fade" role="dialog">
@@ -341,10 +389,34 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
+        <h4 class="modal-title">Such Plight Chapter 1</h4>
       </div>
       <div class="modal-body">
-        <p>Some text in the modal.</p>
+        <p>On this 4th day I now shall write, poem about 4 young girls who have seen such plight.
+
+Within this world of Grimm and men,
+There stand four kingdoms, proud and strong
+
+Atlas, where dull metal shines.
+Once free, now ready for war.
+It takes an army,
+And that's all they are.
+
+Mistral, lush and full of life,
+Worships sea and sky alike.
+
+Vacuo, lawless and dead.
+Only rule there is if you can live, 
+You can stay.
+
+Vale, once safe from harm,
+A Beacon of hope in days gone by,
+Now lies in ruin, where many have died.
+
+Throughout these kingdoms,
+None shall see
+As much pure evil
+As team RWBY.</p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -353,12 +425,24 @@
 
   </div>
 </div>
-                </a>
+               
             </div>
-            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                </a>
+             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail">
+                    <img type="button" class="img-responsive btn btn-primary" data-toggle="modal" data-target="#myModal4" src="gifts/RTAA 1.png" alt="">
+					
+					
+					<i class="fa fa-download" aria-hidden="true"></i>Download</a></a>
+					<div id="myModal4" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-body">
+								<a href="gifts/RTAA 1.png"><img src="gifts/RTAA 1.png" class="img-responsive"></a>
+								<a href="gifts/RTAA 1.png" class="btn btn-info" role="button" download"><i class="fa fa-download" aria-hidden="true"></i>Download</a>
+							</div>
+						</div>
+					  </div>
+					</div>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
                 <a class="thumbnail" href="#">
